@@ -15,22 +15,24 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
+            "top_subheading": "SÆSONUDSALGET SLUTTER DAG  OP TIL 70% RABAT",
+            "title": "SÆSONUDSALG",
             "title_size": 80,
-            "subheading": "And optional subtext",
+            "subheading": "",
             "link": "shopify://collections/all",
-            "link_text": "Shop this",
-            "link_2": "shopify://collections/all",
-            "link_text_2": "Shop all",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify://shop_images/main-header.png",
+            "overlay_opacity": 50,
+            "focal_point": "center center"
           }
         },
         "slideshow-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "Two line\ntitle slide.",
@@ -52,9 +54,9 @@
         "slideshow-1"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "550px",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 7
