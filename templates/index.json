@@ -48,15 +48,15 @@
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/main-header.png",
-        "image_width": 510,
+        "image_width": 700,
         "subtitle": "",
         "title": "LØV & LYS",
-        "text": "<p>Løv & Lys blev grundlagt af Frida og Freja i hjertet af Danmark og er vokset ud af en enkel, men klar vision. At skabe et sted, hvor skandinavisk ro, kvalitet og naturlig skønhed mødes i tøj, der holder længe. Fra begyndelsen har det hele handlet om autenticitet, håndværk og tidløs elegance.</p><p>Inspireret af de bløde farver fra nord og det rolige tempo i det skandinaviske liv sammensætter Frida og Freja hver kollektion med omhu. Hvert stof, hver pasform og hvert detalje vælges bevidst for at formidle en følelse af varme, enkelhed og raffinement. Stil, der ikke skriger, men stråler og følger med dig gennem årstiderne.</p><p>Hvad der begyndte som en fælles drøm, voksede til et brand, der står for karakter, kvalitet og indre ro. Løv & Lys forbliver tro mod Frida og Frejas vision. Rene linjer, naturlige nuancer og tøj, der føles som balance. En afspejling af skandinavisk elegance i sin mest ægte form.</p>",
+        "text": "<p>Løv & Lys blev grundlagt af Frida og Freja i hjertet af Danmark og er vokset ud af en enkel, men klar vision. At skabe et sted, hvor skandinavisk ro, kvalitet og naturlig skønhed mødes i tøj, der holder længe. Fra begyndelsen har det hele handlet om autenticitet, håndværk og tidløs elegance.</p><p>Inspireret af de bløde farver fra nord og det rolige tempo i det skandinaviske liv sammensætter Frida og Freja hver kollektion med omhu. Hvert stof, hver pasform og hvert detalje vælges bevidst for at formidle en følelse af varme, enkelhed og raffinement. Stil, der ikke skriger, men stråler og følger med dig gennem årstiderne.</p><p>Hvad der begyndte som en fælles drøm, voksede til et brand, der står for karakter, kvalitet og ro. Løv & Lys forbliver tro mod Frida og Frejas vision med rene linjer, naturlige nuancer og tøj, der føles som balance. </p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "center",
-        "layout": "left",
+        "layout": "right",
         "divider": false
       }
     }
