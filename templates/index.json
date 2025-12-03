@@ -63,6 +63,17 @@
     "featured_product_CJxTfU": {
       "type": "featured-product",
       "blocks": {
+        "sales_point_P8BJER": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "trust_badge_RbMLYX": {
+          "type": "trust_badge",
+          "settings": {}
+        },
         "price_fipVGg": {
           "type": "price",
           "settings": {}
@@ -90,6 +101,8 @@
         }
       },
       "block_order": [
+        "sales_point_P8BJER",
+        "trust_badge_RbMLYX",
         "price_fipVGg",
         "description_MrA6ng",
         "variant_picker_kJV8zx",
