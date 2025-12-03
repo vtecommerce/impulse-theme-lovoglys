@@ -83,6 +83,14 @@
       "header": {
         "type": "header",
         "blocks": {
+          "1524770296206": {
+            "type": "announcement",
+            "settings": {
+              "text": "Hassle-free returns",
+              "link_text": "30-day postage paid returns",
+              "link": ""
+            }
+          },
           "1524770014057": {
             "type": "logo",
             "settings": {
@@ -97,20 +105,12 @@
               "link_text": "On all orders over $100",
               "link": ""
             }
-          },
-          "1524770296206": {
-            "type": "announcement",
-            "settings": {
-              "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns",
-              "link": ""
-            }
           }
         },
         "block_order": [
+          "1524770296206",
           "1524770014057",
-          "1524770292306",
-          "1524770296206"
+          "1524770292306"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
@@ -120,7 +120,7 @@
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
-          "announcement_above_header": false,
+          "announcement_above_header": true,
           "toolbar_menu": "",
           "toolbar_social": false,
           "show_locale_selector": false,
