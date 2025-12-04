@@ -55,7 +55,7 @@
     "icon_linecaps": "miter",
     "product_save_type": "percent",
     "vendor_enable": false,
-    "quick_shop_enable": true,
+    "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "natural",
     "product_hover_image": true,
