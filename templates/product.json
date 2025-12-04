@@ -130,8 +130,8 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "author": "Freja M.",
+            "author_info": ""
           }
         },
         "testimonials-1": {
@@ -139,8 +139,8 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "author": "Astrid K.",
+            "author_info": ""
           }
         },
         "testimonials-2": {
@@ -148,15 +148,55 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "author": "Alma S.",
+            "author_info": ""
+          }
+        },
+        "testimonial_63Y4F4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Mathilde R.",
+            "author_info": ""
+          }
+        },
+        "testimonial_KipmjF": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Signe L.",
+            "author_info": ""
+          }
+        },
+        "testimonial_6CGYKD": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Ida V.",
+            "author_info": ""
+          }
+        },
+        "testimonial_TzCqbU": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Clara P.",
+            "author_info": ""
           }
         }
       },
       "block_order": [
         "testimonials-0",
         "testimonials-1",
-        "testimonials-2"
+        "testimonials-2",
+        "testimonial_63Y4F4",
+        "testimonial_KipmjF",
+        "testimonial_6CGYKD",
+        "testimonial_TzCqbU"
       ],
       "settings": {
         "title": "Testimonials",
