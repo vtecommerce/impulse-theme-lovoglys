@@ -81,8 +81,17 @@
             "page": ""
           }
         },
+        "tab_b4qmqa": {
+          "type": "tab",
+          "settings": {
+            "title": "2600+ tilfredse kunder",
+            "content": "<p>Løv & Lys har over 23.000 tilfredse kunder, og vores kunder giver os en vurdering på 4,7 ud af 5.</p>",
+            "page": ""
+          }
+        },
         "contact": {
           "type": "contact",
+          "disabled": true,
           "settings": {
             "title": "Ask a question",
             "phone": false
@@ -101,6 +110,7 @@
         "custom_KPWGfx",
         "description",
         "tab",
+        "tab_b4qmqa",
         "contact"
       ],
       "settings": {
