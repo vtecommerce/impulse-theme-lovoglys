@@ -38,7 +38,7 @@
       "settings": {
         "align_text": "left",
         "narrow_column": true,
-        "divider": false
+        "divider": true
       }
     },
     "form": {
