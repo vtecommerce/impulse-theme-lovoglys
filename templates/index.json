@@ -43,6 +43,32 @@
         "autoplay_speed": 7
       }
     },
+    "featured_collection_cfWkrL": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured_collection_Pykir6": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "faq_rKim4m": {
       "type": "faq",
       "blocks": {
@@ -114,6 +140,8 @@
   },
   "order": [
     "slideshow",
+    "featured_collection_cfWkrL",
+    "featured_collection_Pykir6",
     "faq_rKim4m",
     "text_and_image_rHttdf"
   ]
