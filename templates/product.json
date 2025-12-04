@@ -115,6 +115,19 @@
         "product_video_style": "muted"
       }
     },
+    "featured_collection_MtVYty": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KOMBINÉR OG FÅ 10 % EKSTRA RABAT",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
@@ -227,6 +240,7 @@
   },
   "order": [
     "main",
+    "featured_collection_MtVYty",
     "sub",
     "testimonials",
     "product-recommendations",
