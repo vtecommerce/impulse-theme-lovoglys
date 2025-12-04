@@ -43,6 +43,57 @@
         "autoplay_speed": 7
       }
     },
+    "faq_rKim4m": {
+      "type": "faq",
+      "blocks": {
+        "question_QJiLPJ": {
+          "type": "question",
+          "settings": {
+            "title": "Hvor hurtigt bliver min ordre leveret?",
+            "text": "<p>Hvis du bestiller på en hverdag inden kl. 23.00, afsender vi din pakke samme dag.</p><p>Ordrer der afgives i weekenden, sendes den følgende mandag.</p><p>Når din pakke er sendt, modtager du en e mail med et Track & Trace nummer.</p>"
+          }
+        },
+        "question_GAC4UB": {
+          "type": "question",
+          "settings": {
+            "title": "Hvordan fungerer returnering?",
+            "text": "<p>Vi håber naturligvis at du bliver glad for dit køb.</p><p>Ønsker du alligevel at returnere eller bytte en vare, kan det gøres inden for 30 dage.</p><p>Send en mail til <strong>info@lovoglys.dk</strong>, så hjælper vi dig hurtigt videre.</p>"
+          }
+        },
+        "question_xtTan9": {
+          "type": "question",
+          "settings": {
+            "title": "Er min betaling sikker?",
+            "text": "<p>Ja. Du betaler altid via en sikker, krypteret forbindelse og pålidelige betalingsløsninger som <strong>MobilePay, Visa, Mastercard, Apple pay eller Google pay</strong>.</p><p>På den måde kan du handle med ro i maven.</p>"
+          }
+        },
+        "question_djt3eF": {
+          "type": "question",
+          "settings": {
+            "title": "Hvordan vælger jeg den rigtige størrelse?",
+            "text": "<p>Ved hvert produkt finder du en størrelsesguide med de korrekte mål.</p><p>Er du i tvivl mellem to størrelser, anbefaler vi at vælge den større for en mere afslappet og komfortabel pasform.</p>"
+          }
+        },
+        "question_rLKXAH": {
+          "type": "question",
+          "settings": {
+            "title": "Har du et spørgsmål vi ikke har besvaret?",
+            "text": "<p>Du er altid velkommen til at kontakte vores kundeservice via <strong>info@lovoglys.dk</strong> eller udfylde vores kontaktformular.</p><p>Vi hjælper dig gerne personligt videre.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_QJiLPJ",
+        "question_GAC4UB",
+        "question_xtTan9",
+        "question_djt3eF",
+        "question_rLKXAH"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "title": "Ofte stillede spørgsmål"
+      }
+    },
     "text_and_image_rHttdf": {
       "type": "text-and-image",
       "name": "Image with text",
@@ -63,6 +114,7 @@
   },
   "order": [
     "slideshow",
+    "faq_rKim4m",
     "text_and_image_rHttdf"
   ]
 }
