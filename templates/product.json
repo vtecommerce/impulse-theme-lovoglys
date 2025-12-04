@@ -55,6 +55,12 @@
             "surface_pickup_enable": true
           }
         },
+        "custom_ea83iC": {
+          "type": "custom",
+          "settings": {
+            "code": "{%- assign payment_types = \"apple_pay,google_pay,mobilepay,maestro,master,visa\" | split: \",\" -%}\n\n<ul class=\"payment-icons\" role=\"img\" aria-label=\"Beschikbare betaalmethoden\">\n  {%- for type in payment_types -%}\n    <li class=\"payment-icon payment-icon--{{ type | strip }}\">\n      {{ type | strip | payment_type_svg_tag }}\n    </li>\n  {%- endfor -%}\n</ul>\n\n<style>\n  .payment-icons {\n    display: flex;\n    flex-wrap: wrap;\n    gap: .5rem;\n    margin-top: .75rem;\n    padding: 0;\n    justify-content: center;\n  }\n\n  .payment-icon {\n    list-style: none;\n    line-height: 0;\n  }\n\n  .payment-icon svg {\n    height: 24px;\n    width: auto;\n    display: block;\n  }\n\n  /* Mobiel: iconen iets kleiner zodat ze op één regel passen */\n  @media (max-width: 480px) {\n    .payment-icons {\n      gap: 0.35rem;\n    }\n\n    .payment-icon svg {\n      height: 20px;\n    }\n  }\n</style>"
+          }
+        },
         "custom_KPWGfx": {
           "type": "custom",
           "settings": {
@@ -91,6 +97,7 @@
         "sales_point",
         "inventory_status",
         "buy_buttons",
+        "custom_ea83iC",
         "custom_KPWGfx",
         "description",
         "tab",
