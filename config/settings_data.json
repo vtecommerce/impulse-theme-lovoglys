@@ -135,27 +135,37 @@
           "custom_p6zJBP": {
             "type": "custom",
             "settings": {
-              "show_footer_title": true,
+              "show_footer_title": false,
               "title": "",
               "text": "<h3><strong>Kundeservice</strong></h3><p>KØBENHAVN | DANMARK</p><p>MAN / FRE: 9:00 - 18:00</p><p>LØR / SØN: 10:00 - 17:00</p><p><strong>Har du et spørgsmål eller ønsker du rådgivning?<br/></strong>Kontakt os gerne. Vi hjælper dig gerne og står klar til at hjælpe dig.</p><p><strong>E-mail</strong>: info@lovoglys.dk</p>",
               "container_width": 38
             }
           },
-          "1494301487049": {
-            "type": "menu",
+          "custom_YVKXXM": {
+            "type": "custom",
             "settings": {
               "show_footer_title": false,
-              "menu": "footer",
+              "title": "",
+              "text": "<h3><strong>Politik</strong></h3><p><a href=\"https://p91g6j-v8.myshopify.com/search\">Søgeopgave</a></p><p><a href=\"https://p91g6j-v8.myshopify.com/policies/privacy-policy\">Fortrolighedspolitik</a></p><p><a href=\"https://p91g6j-v8.myshopify.com/policies/refund-policy\">Retur- og refusionspolitik</a></p><p><a href=\"https://p91g6j-v8.myshopify.com/policies/shipping-policy\">Forsendelses- og leveringspolitik</a></p><p><a href=\"https://p91g6j-v8.myshopify.com/policies/terms-of-service\">Almindelige vilkår og betingelser</a></p>",
               "container_width": 25
             }
           },
           "custom_RqqKXX": {
             "type": "custom",
             "settings": {
-              "show_footer_title": true,
+              "show_footer_title": false,
               "title": "",
               "text": "<h3><strong>OM LØV & LYS</strong></h3><p>✔ Mere end 25 års erfaring i modebranchen.<br/>✔ Gratis forsendelse i hele Holland og Belgien.<br/>✔ Vi har i årevis leveret den bedste service til vores kunder.<br/>✔ Betroet af mere end 2600 kunder.</p>",
               "container_width": 30
+            }
+          },
+          "1494301487049": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 25
             }
           },
           "1494301487048": {
@@ -168,8 +178,9 @@
         },
         "block_order": [
           "custom_p6zJBP",
-          "1494301487049",
+          "custom_YVKXXM",
           "custom_RqqKXX",
+          "1494301487049",
           "1494301487048"
         ],
         "settings": {
