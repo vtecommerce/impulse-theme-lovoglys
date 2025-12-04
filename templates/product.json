@@ -77,7 +77,7 @@
           "type": "tab",
           "settings": {
             "title": "Gratis forsendelse",
-            "content": "<p>Vi tilbyder gratis forsendelse inden for Danmark via PostNord på alle ordrer.</p><p>Vi sender vores pakker med en Track & Trace-kode, så du altid kan følge din ordre.</p><p>Du modtager Track & Trace-koden via e-mail inden for 1-24 timer efter, at du har afgivet din ordre.</p>",
+            "content": "<p>Vi tilbyder <strong>gratis forsendelse</strong> inden for Danmark via <strong>PostNord</strong> på alle ordrer.</p><p>Vi sender vores pakker med en <strong>Track & Trace-kode</strong>, så du altid kan følge din ordre.</p><p>Du modtager Track & Trace-koden via e-mail inden for 1-24 timer efter, at du har afgivet din ordre.</p>",
             "page": ""
           }
         },
@@ -85,7 +85,7 @@
           "type": "tab",
           "settings": {
             "title": "2600+ tilfredse kunder",
-            "content": "<p>Løv & Lys har over 23.000 tilfredse kunder, og vores kunder giver os en vurdering på 4,7 ud af 5.</p>",
+            "content": "<p>Løv & Lys har over <strong>23.000 tilfredse kunder</strong>, og vores kunder giver os en vurdering på <strong>4,7 ud af 5</strong>.</p>",
             "page": ""
           }
         },
