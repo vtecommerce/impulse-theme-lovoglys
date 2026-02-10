@@ -83,11 +83,27 @@
       "header": {
         "type": "header",
         "blocks": {
+          "announcement_LKNYbF": {
+            "type": "announcement",
+            "settings": {
+              "text": "GRATIS FORSENDELSE VIA POSTNORD",
+              "link_text": "",
+              "link": ""
+            }
+          },
           "1524770296206": {
             "type": "announcement",
             "settings": {
-              "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns",
+              "text": "SÆSONUDSALG OP TIL 70 % RABAT",
+              "link_text": "",
+              "link": ""
+            }
+          },
+          "announcement_tNfBdf": {
+            "type": "announcement",
+            "settings": {
+              "text": "100 % PENGENE TILBAGE-GARANTI",
+              "link_text": "INDEN FOR 14 DAGE",
               "link": ""
             }
           },
@@ -98,20 +114,13 @@
               "desktop_logo_width": 230,
               "mobile_logo_width": 150
             }
-          },
-          "1524770292306": {
-            "type": "announcement",
-            "settings": {
-              "text": "Free shipping",
-              "link_text": "On all orders over $100",
-              "link": ""
-            }
           }
         },
         "block_order": [
+          "announcement_LKNYbF",
           "1524770296206",
-          "1524770014057",
-          "1524770292306"
+          "announcement_tNfBdf",
+          "1524770014057"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
