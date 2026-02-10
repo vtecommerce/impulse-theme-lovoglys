@@ -7,4 +7,10 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{}
+{
+  "products": {
+    "general": {
+      "sale": "Sale"
+    }
+  }
+}
