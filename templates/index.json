@@ -139,7 +139,7 @@
       ],
       "name": "Collection list",
       "settings": {
-        "title": "Collection list",
+        "title": "Mest populære kollektioner",
         "divider": false,
         "per_row": 4,
         "enable_gutter": true
