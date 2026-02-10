@@ -43,6 +43,35 @@
         "autoplay_speed": 7
       }
     },
+    "rich_text_LM7x3M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rYGXer": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_KLcGCJ": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>SÆSONUDSALG – Op til 70 % rabat!</strong></p><p>Sæsonen nærmer sig sin afslutning, og det betyder, at vi rydder op i vores smukkeste varer.</p><p>For at gøre plads til den nye kollektion kan du nu nyde ekstra høje rabatter på vores tidløse favoritter.</p><p>Sidste chance for at shoppe – op til 70 % rabat på hele kollektionen, så længe lager haves.</p><p><strong>Sæsonudsalg | Spar ekstra:</strong></p><p>🛍️ 10 % ekstra ved køb af 2 varer<br/>🛍️ 15 % ekstra ved køb af 3 varer<br/>🛍️ 20 % ekstra ved køb af 4 varer<br/>🛍️ 25 % ekstra ved køb af 5+ varer<br/><br/>*Rabatterne trækkes automatisk fra ved kassen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rYGXer",
+        "text_KLcGCJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "featured_collection_cfWkrL": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -140,6 +169,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_LM7x3M",
     "featured_collection_cfWkrL",
     "featured_collection_Pykir6",
     "faq_rKim4m",
