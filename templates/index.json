@@ -89,8 +89,21 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
+        "title": "Tidløse favoritter",
+        "home_featured_products": "elegante-maxikjoler",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured_collection_HxwKM6": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Damesneakers",
+        "home_featured_products": "sneakers",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -172,6 +185,7 @@
     "rich_text_LM7x3M",
     "featured_collection_cfWkrL",
     "featured_collection_Pykir6",
+    "featured_collection_HxwKM6",
     "faq_rKim4m",
     "text_and_image_rHttdf"
   ]
