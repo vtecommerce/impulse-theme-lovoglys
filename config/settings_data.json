@@ -56,7 +56,7 @@
     "product_save_type": "percent",
     "vendor_enable": false,
     "quick_shop_enable": false,
-    "quick_shop_text": "Quick view",
+    "quick_shop_text": "Hurtigt overblik",
     "product_grid_image_size": "natural",
     "product_hover_image": true,
     "enable_swatches": true,
@@ -68,6 +68,7 @@
     "collection_grid_opacity": 10,
     "collection_grid_gutter": true,
     "cart_type": "drawer",
+    "cart_icon": "bag-minimal",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "checkout_logo_position": "left",
@@ -86,7 +87,7 @@
           "announcement_LKNYbF": {
             "type": "announcement",
             "settings": {
-              "text": "GRATIS FORSENDELSE VIA POSTNORD",
+              "text": "GRATIS FORSENDELSE VIA POSTNORD | Hele Danmark",
               "link_text": "",
               "link": ""
             }
@@ -102,8 +103,8 @@
           "announcement_tNfBdf": {
             "type": "announcement",
             "settings": {
-              "text": "100 % PENGENE TILBAGE-GARANTI",
-              "link_text": "INDEN FOR 14 DAGE",
+              "text": "100 % PENGENE TILBAGE-GARANTI | INDEN FOR 14 DAGE",
+              "link_text": "",
               "link": ""
             }
           },
