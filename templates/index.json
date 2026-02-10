@@ -85,6 +85,66 @@
         "divider": false
       }
     },
+    "featured_collections_zPbKbr": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_LDajn7": {
+          "type": "collection",
+          "settings": {
+            "collection": "bohemebluser",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_FcwBzr": {
+          "type": "collection",
+          "settings": {
+            "collection": "personlige-bluser",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_riXYFR": {
+          "type": "collection",
+          "settings": {
+            "collection": "nederdele",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_cAEJLB": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweatshirts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_PMWixg": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_LDajn7",
+        "collection_FcwBzr",
+        "collection_riXYFR",
+        "collection_cAEJLB",
+        "collection_PMWixg"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Collection list",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
     "featured_collection_Pykir6": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -184,6 +244,7 @@
     "slideshow",
     "rich_text_LM7x3M",
     "featured_collection_cfWkrL",
+    "featured_collections_zPbKbr",
     "featured_collection_Pykir6",
     "featured_collection_HxwKM6",
     "faq_rKim4m",
