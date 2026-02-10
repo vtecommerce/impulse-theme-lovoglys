@@ -150,9 +150,9 @@
       "catalog_title": "Catalog",
       "all_of_collection": "Se alle",
       "view_all_products_html": "View all<br>{{ count }} products",
-      "see_more": "Show more",
-      "see_less": "Show less",
-      "no_matches": "Sorry, there are no products in this collection.",
+      "see_more": "Vis mere",
+      "see_less": "Vis mindre",
+      "no_matches": "Beklager, der er ingen produkter i denne kollektion.",
       "items_with_count": {
         "one": "{{ count }} product",
         "other": "{{ count }} products"
