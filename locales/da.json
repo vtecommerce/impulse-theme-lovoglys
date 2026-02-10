@@ -20,6 +20,21 @@
       "from_text_html": "from {{ price }}",
       "recent_products": "senest set",
       "reviews": "Reviews"
+    },
+    "product": {
+      "description": "Description",
+      "in_stock_label": "In stock, ready to ship",
+      "stock_label": {
+        "one": "Low stock - {{ count }} item left",
+        "other": "Low stock - {{ count }} items left"
+      },
+      "sold_out": "Sold out",
+      "unavailable": "Unavailable",
+      "quantity": "Quantity",
+      "add_to_cart": "Add to cart",
+      "preorder": "Pre-Order",
+      "shipping_policy_html": "Gratis forsendelse",
+      "will_not_ship_until": "Ready to ship {{ date }}"
     }
   },
   "sections": {
@@ -165,6 +180,48 @@
       "details": "Account details",
       "view_addresses": "View Addresses",
       "return": "Return to account"
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "forgot_password": "Forgot password",
+      "sign_in": "Sign in",
+      "cancel": "Return to store",
+      "guest_title": "Continue as a guest",
+      "guest_continue": "Continue"
+    },
+    "orders": {
+      "title": "Order history",
+      "order_number": "Order",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
+      "total": "Total",
+      "none": "You haven't placed any orders yet"
     }
+  },
+  "layout": {
+    "customer": {
+      "account": "Account",
+      "log_out": "Log out",
+      "log_in": "Log in",
+      "create_account": "Create account"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title_html": "Here's your {{ value }} gift card for {{ shop }}!",
+      "subtext": "Here's your gift card!",
+      "disabled": "Disabled",
+      "expired": "Expired on {{ expiry }}",
+      "active": "Expires on {{ expiry }}",
+      "shop_link": "Start shopping",
+      "print": "Print",
+      "add_to_apple_wallet": "Add to Apple wallet"
+    }
+  },
+  "date_formats": {
+    "month_day_year": "%b %d, %Y"
   }
 }
