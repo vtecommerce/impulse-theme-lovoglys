@@ -1,1 +1,83 @@
-{"sections":{"collection-header":{"type":"collection-header","settings":{}},"main-collection":{"type":"main-collection","blocks":{"collection_description":{"type":"collection_description","settings":{}},"product_grid":{"type":"product_grid","settings":{}},"subcollections":{"type":"subcollections","settings":{}}},"block_order":["collection_description","subcollections","product_grid"],"settings":{}},"promo-grid":{"type":"promo-grid","blocks":{"banner":{"type":"banner","settings":{"color_tint":"#E95454"}},"advanced":{"type":"advanced","settings":{}}},"block_order":["banner","advanced"],"settings":{"space_below":false}}},"order":["collection-header","promo-grid","main-collection"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_c4kf76": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9PgzQa": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>SÆSONUDSALG – Op til 70 % rabat!</strong></p><p>Sæsonen nærmer sig sin afslutning, og det betyder, at vi rydder op i vores smukkeste varer.</p><p>For at gøre plads til den nye kollektion kan du nu nyde ekstra høje rabatter på vores tidløse favoritter.</p><p>Sidste chance for at shoppe – op til 70 % rabat på hele kollektionen, så længe lager haves.</p><p><strong>Sæsonudsalg | Spar ekstra:</strong></p><p>🛍️ 10 % ekstra ved køb af 2 varer<br/>🛍️ 15 % ekstra ved køb af 3 varer<br/>🛍️ 20 % ekstra ved køb af 4 varer<br/>🛍️ 25 % ekstra ved køb af 5+ varer<br/><br/>*Rabatterne trækkes automatisk fra ved kassen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9PgzQa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": false,
+        "parallax": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "rich_text_c4kf76",
+    "collection-header",
+    "main-collection"
+  ]
+}
