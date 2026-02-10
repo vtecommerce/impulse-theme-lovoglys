@@ -230,7 +230,7 @@
           "settings": {
             "feature_title": "GRATIS FORSENDELSE",
             "feature_text": "<p>Nyd altid gratis forsendelse på alle dine ordrer, uden minimumsbeløb. Din pakke pakkes omhyggeligt og sendes via <strong>PostNord</strong> med en <strong>Track & Trace-kode</strong>, så du ved præcis, hvornår din ordre ankommer. Vores premium-service sikrer pålidelig levering.</p>",
-            "feature_url": "https://section.store/",
+            "feature_url": "",
             "hide_image": false
           }
         },
@@ -283,13 +283,13 @@
         "feature_text_mt": 4,
         "feature_icon_size": 42,
         "feature_icon_size_mobile": 42,
-        "feature_bg": "#FFFFFF",
+        "feature_bg": "#ffffff",
         "feature_border_color": "#000000",
         "feature_shadow_color": "#000000",
         "feature_heading_color": "#000000",
         "feature_text_color": "#000000",
         "feature_icon_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
