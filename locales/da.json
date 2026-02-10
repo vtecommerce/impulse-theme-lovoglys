@@ -12,7 +12,7 @@
     "general": {
       "sale": "Sale",
       "sale_price": "Sale Price",
-      "save_html": "Save {{ saved_amound }}"
+      "save_html": "Save {{ saved_amount }}"
     }
   }
 }
