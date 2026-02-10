@@ -12,7 +12,159 @@
     "general": {
       "sale": "Sale",
       "sale_price": "Sale Price",
-      "save_html": "Save {{ saved_amount }}"
+      "save_html": "Save {{ saved_amount }}",
+      "color_swatch_trigger": "Color",
+      "collection_return": "Back to {{ collection }}",
+      "next_product": "Next: {{ title }}",
+      "regular_price": "Regular price",
+      "from_text_html": "from {{ price }}",
+      "recent_products": "senest set",
+      "reviews": "Reviews"
+    }
+  },
+  "sections": {
+    "map": {
+      "get_directions": "Get directions",
+      "address_error": "Error looking up that address",
+      "address_no_results": "No results for that address"
+    },
+    "slideshow": {
+      "play_slideshow": "Play slideshow",
+      "pause_slideshow": "Pause slideshow"
+    }
+  },
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Skip to content",
+      "close_modal": "Close (esc)",
+      "close": "Close",
+      "learn_more": "Learn more"
+    },
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "404": {
+      "title": "404 Page not Found"
+    },
+    "pagination": {
+      "previous": "Forrige ",
+      "next": "Næste"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "home_link_title": "Back to frontpage"
+    },
+    "social": {
+      "share_on_facebook": "Share",
+      "share_on_twitter": "Tweet",
+      "share_on_pinterest": "Pin it",
+      "alt_text": {
+        "share_on_facebook": "Share on Facebook",
+        "share_on_twitter": "Tweet on twitter",
+        "share_on_pinterest": "Pin on pinterest"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Enter you email",
+      "newsletter_confirmation": "Thanks for subscribing",
+      "submit": "Subscribe"
+    },
+    "search": {
+      "view_more": "Se mere",
+      "collections": "Samlinger:",
+      "pages": "Sider:",
+      "articles": "Articles:",
+      "title": "Søg",
+      "placeholder": "Search our store",
+      "submit": "Søg",
+      "result_count": {
+        "one": "{{ count }} result",
+        "other": "{{ count }} results"
+      }
+    },
+    "drawers": {
+      "navigation": "Site navigation",
+      "close_menu": "Close menu",
+      "expand_submenu": "Expand submenu",
+      "collapse_submenu": "Collapse submenu"
+    },
+    "currency": {
+      "dropdown_label": "Currency"
+    },
+    "language": {
+      "dropdown_label": "Language"
+    }
+  },
+  "blogs": {
+    "article": {
+      "view_all": "Vis alle",
+      "tags": "Tags",
+      "read_more": "Continue reading",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name ",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Indkøbsvogn",
+      "remove": "Fjern",
+      "note": "Order note",
+      "subtotal": "Subtotal",
+      "discounts": "Discounts",
+      "shipping_at_checkout": "Gratis forsendelse",
+      "update": "Update cart",
+      "checkout": "Check out",
+      "empty": "Din indkøbskurv er i øjeblikket tom",
+      "continue_browsing_html": "<a href='{{ url }}'>Continue shopping<a>",
+      "close_cart": "Close cart"
+    },
+    "label": {
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total"
+    }
+  },
+  "collections": {
+    "general": {
+      "see_more": "Vis mere",
+      "see_less": "Vis mindre",
+      "items_with_count": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      }
+    },
+    "sorting": {
+      "title": "Sort"
+    },
+    "filters": {
+      "title_tags": "Filter",
+      "all_tags": "Alle produkter",
+      "categories_title": "Kategorier"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Navn",
+      "email": "E-mail",
+      "phone": "Telefonnummer",
+      "message": "Besked",
+      "send": "Sende",
+      "post_success": "Tak for din henvendelse. Vi vender tillbage til dig så hurtigt som muligt."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "My account",
+      "details": "Account details",
+      "view_addresses": "View Addresses",
+      "return": "Return to account"
     }
   }
 }
