@@ -228,8 +228,8 @@
         "image_baxJLL": {
           "type": "image",
           "settings": {
-            "feature_title": "Free Shipping",
-            "feature_text": "<p>Order today, receive tomorrow</p>",
+            "feature_title": "GRATIS FORSENDELSE",
+            "feature_text": "<p>Nyd altid gratis forsendelse på alle dine ordrer, uden minimumsbeløb. Din pakke pakkes omhyggeligt og sendes via PostNord med en Track & Trace-kode, så du ved præcis, hvornår din ordre ankommer. Vores premium-service sikrer pålidelig levering.</p>",
             "feature_url": "https://section.store/",
             "hide_image": false
           }
@@ -237,8 +237,8 @@
         "image_fhrRr4": {
           "type": "image",
           "settings": {
-            "feature_title": "Price-match guarantee",
-            "feature_text": "<p>Safe money when ordering with us</p>",
+            "feature_title": "30 DAGES RETURRET",
+            "feature_text": "<p>Ikke helt tilfreds? Intet problem. Hos os kan du nemt returnere varer inden for 30 dage efter modtagelsen. Vi sørger for en hurtig og gennemsigtig returproces, så du kan shoppe uden bekymringer. Din tilfredshed er vores højeste prioritet.</p>",
             "feature_url": "",
             "hide_image": false
           }
@@ -246,17 +246,8 @@
         "image_BB9NMB": {
           "type": "image",
           "settings": {
-            "feature_title": "Hassle-free exchange",
-            "feature_text": "<p>Receive a slip for exchanges</p>",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_kdtmLB": {
-          "type": "image",
-          "settings": {
-            "feature_title": "5.0 Google Reviews",
-            "feature_text": "<p>Customer satisfaction #1 priority</p>",
+            "feature_title": "SIKKER BETALING",
+            "feature_text": "<p>Betal sikkert, hurtigt og trygt med den betalingsmetode, du foretrækker. Vi understøtter blandt andet kreditkort, MobilePay, Apple Pay, Google Pay og VISA. Alle vores betalinger foregår via sikre forbindelser, så dine oplysninger er fuldt beskyttet.</p>",
             "feature_url": "",
             "hide_image": false
           }
@@ -265,8 +256,7 @@
       "block_order": [
         "image_baxJLL",
         "image_fhrRr4",
-        "image_BB9NMB",
-        "image_kdtmLB"
+        "image_BB9NMB"
       ],
       "name": "SS - Feature #1",
       "settings": {
