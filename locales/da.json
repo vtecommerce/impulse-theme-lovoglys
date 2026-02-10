@@ -360,5 +360,15 @@
       "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}</strong>",
       "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}</strong>"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "autocomplete_powered_by_google": "© 2026, Løv & Lys"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "© 2026, Løv & Lys"
+    }
   }
 }
