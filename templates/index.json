@@ -229,7 +229,7 @@
           "type": "image",
           "settings": {
             "feature_title": "GRATIS FORSENDELSE",
-            "feature_text": "<p>Nyd altid gratis forsendelse på alle dine ordrer, uden minimumsbeløb. Din pakke pakkes omhyggeligt og sendes via PostNord med en Track & Trace-kode, så du ved præcis, hvornår din ordre ankommer. Vores premium-service sikrer pålidelig levering.</p>",
+            "feature_text": "<p>Nyd altid gratis forsendelse på alle dine ordrer, uden minimumsbeløb. Din pakke pakkes omhyggeligt og sendes via <strong>PostNord</strong> med en <strong>Track & Trace-kode</strong>, så du ved præcis, hvornår din ordre ankommer. Vores premium-service sikrer pålidelig levering.</p>",
             "feature_url": "https://section.store/",
             "hide_image": false
           }
@@ -247,7 +247,7 @@
           "type": "image",
           "settings": {
             "feature_title": "SIKKER BETALING",
-            "feature_text": "<p>Betal sikkert, hurtigt og trygt med den betalingsmetode, du foretrækker. Vi understøtter blandt andet kreditkort, MobilePay, Apple Pay, Google Pay og VISA. Alle vores betalinger foregår via sikre forbindelser, så dine oplysninger er fuldt beskyttet.</p>",
+            "feature_text": "<p>Betal sikkert, hurtigt og trygt med den betalingsmetode, du foretrækker. Vi understøtter blandt andet kreditkort, <strong>MobilePay</strong>, <strong>Apple Pay, Google Pay og VISA</strong>. Alle vores betalinger foregår via sikre forbindelser, så dine oplysninger er fuldt beskyttet.</p>",
             "feature_url": "",
             "hide_image": false
           }
@@ -260,8 +260,8 @@
       ],
       "name": "SS - Feature #1",
       "settings": {
-        "feature_row": 4,
-        "feature_row_mobile": 1,
+        "feature_row": 3,
+        "feature_row_mobile": 3,
         "feature_gap": 20,
         "feature_gap_mobile": 20,
         "feature_padding_horizontal": 0,
