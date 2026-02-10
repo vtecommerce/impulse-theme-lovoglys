@@ -10,7 +10,8 @@
 {
   "products": {
     "general": {
-      "sale": "Sale"
+      "sale": "Sale",
+      "sale_price": "Sale Price"
     }
   }
 }
