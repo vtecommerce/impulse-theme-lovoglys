@@ -24,8 +24,8 @@
       "subtext_html": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>"
     },
     "pagination": {
-      "previous": "Previous",
-      "next": "Next"
+      "previous": "Forrige",
+      "next": "Næste"
     },
     "password_page": {
       "login_form_heading": "Enter store using password",
@@ -36,7 +36,7 @@
       "signup_form_success": "We will send you an email right before we open!",
       "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
       "password_link": "Password",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "powered_by_shopify_html": "© 2026, lovoglys.dk"
     },
     "breadcrumbs": {
       "home": "Home",
