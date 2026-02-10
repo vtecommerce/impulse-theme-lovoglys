@@ -11,7 +11,8 @@
   "products": {
     "general": {
       "sale": "Sale",
-      "sale_price": "Sale Price"
+      "sale_price": "Sale Price",
+      "save_html": "Save {{ saved_amound }}"
     }
   }
 }
