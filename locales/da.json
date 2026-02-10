@@ -34,7 +34,12 @@
       "add_to_cart": "Add to cart",
       "preorder": "Pre-Order",
       "shipping_policy_html": "Gratis forsendelse",
-      "will_not_ship_until": "Ready to ship {{ date }}"
+      "will_not_ship_until": "Ready to ship {{ date }}",
+      "include_taxes": "Tax included.",
+      "will_be_in_stock_after": "Back in stock {{ date }}",
+      "waiting_for_stock": "Inventory on the way",
+      "view_in_space": "View in your space",
+      "view_in_space_label": "View in your space, loads items in augmented reality window"
     }
   },
   "sections": {
@@ -207,6 +212,9 @@
       "log_out": "Log out",
       "log_in": "Log in",
       "create_account": "Create account"
+    },
+    "cart": {
+      "title": "Cart"
     }
   },
   "gift_cards": {
@@ -218,7 +226,8 @@
       "active": "Expires on {{ expiry }}",
       "shop_link": "Start shopping",
       "print": "Print",
-      "add_to_apple_wallet": "Add to Apple wallet"
+      "add_to_apple_wallet": "Add to Apple wallet",
+      "redeem": "Use this code at checkout to redeem your gift card"
     }
   },
   "date_formats": {
