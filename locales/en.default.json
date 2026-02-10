@@ -169,12 +169,12 @@
   },
   "contact": {
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone number",
-      "message": "Message",
-      "send": "Send",
-      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+      "name": "Navn",
+      "email": "E-mail",
+      "phone": "Telefonnummer",
+      "message": "Besked",
+      "send": "sende",
+      "post_success": "Tak for din henvendelse. Vi vender tilbage til dig så hurtigt som muligt."
     }
   },
   "customer": {
