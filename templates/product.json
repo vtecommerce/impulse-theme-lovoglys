@@ -129,10 +129,11 @@
     },
     "featured_collection_MtVYty": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "title": "KOMBINÉR OG FÅ 10 % EKSTRA RABAT",
-        "home_featured_products": "sweatshirts",
+        "home_featured_products": "blazere",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
@@ -252,10 +253,10 @@
   },
   "order": [
     "main",
+    "product-recommendations",
     "featured_collection_MtVYty",
     "sub",
     "testimonials",
-    "product-recommendations",
     "recently-viewed",
     "collection-return"
   ]
