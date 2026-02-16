@@ -31,7 +31,7 @@
       "sold_out": "Sold out",
       "unavailable": "Unavailable",
       "quantity": "Quantity",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Tilføj til kurv",
       "preorder": "Pre-Order",
       "shipping_policy_html": "Gratis forsendelse",
       "will_not_ship_until": "Ready to ship {{ date }}",
