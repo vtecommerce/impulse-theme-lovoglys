@@ -367,11 +367,23 @@
         "autocomplete_powered_by_google": "© 2026, Løv & Lys"
       },
       "order_summary": {
-        "enter_shipping_address": "Gratis"
+        "enter_shipping_address": "Gratis",
+        "free_shipping_discount_label": "Gratis"
+      },
+      "shipping": {
+        "split_shipping_option_free": "Gratis"
       }
     },
     "links": {
       "powered_by_shopify": "© 2026, Løv & Lys"
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "shipping": {
+        "free": "Gratis",
+        "free_shipping_discount": "Gratis"
+      }
     }
   }
 }
