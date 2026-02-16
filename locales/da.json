@@ -163,7 +163,7 @@
       "discounts": "Discounts",
       "shipping_at_checkout": "Gratis forsendelse",
       "update": "Update cart",
-      "checkout": "Check out",
+      "checkout": "Kontroller din ordre",
       "empty": "Din indkøbskurv er i øjeblikket tom",
       "continue_browsing_html": "<a href='{{ url }}'>Continue shopping<a>",
       "close_cart": "Close cart",
