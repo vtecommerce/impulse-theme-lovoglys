@@ -247,7 +247,7 @@
           "type": "image",
           "settings": {
             "feature_title": "SIKKER BETALING",
-            "feature_text": "<p>Betal sikkert, hurtigt og trygt med den betalingsmetode, du foretrækker. Vi understøtter blandt andet kreditkort, <strong>MobilePay</strong>, <strong>Apple Pay, Google Pay og VISA</strong>. Alle vores betalinger foregår via sikre forbindelser, så dine oplysninger er fuldt beskyttet.</p>",
+            "feature_text": "<p>Betal sikkert, hurtigt og trygt med den betalingsmetode, du foretrækker. Vi understøtter blandt andet <strong>KreditKort</strong>, <strong>MobilePay</strong>, <strong>Apple Pay, Google Pay og VISA</strong>. Alle vores betalinger foregår via sikre forbindelser, så dine oplysninger er fuldt beskyttet.</p>",
             "feature_url": "",
             "hide_image": false
           }
