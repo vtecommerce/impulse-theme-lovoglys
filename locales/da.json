@@ -365,6 +365,9 @@
     "checkout": {
       "general": {
         "autocomplete_powered_by_google": "© 2026, Løv & Lys"
+      },
+      "order_summary": {
+        "enter_shipping_address": "Gratis"
       }
     },
     "links": {
