@@ -71,7 +71,7 @@
     "cart_icon": "bag-minimal",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "favicon": "shopify://shop_images/logo-small-lv-black-white_-_Bewerkt.png",
+    "favicon": "shopify://shop_images/logo-small-favicon-black-transparant.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
