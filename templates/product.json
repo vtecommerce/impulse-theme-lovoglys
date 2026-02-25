@@ -75,6 +75,12 @@
             "code": "{%- assign payment_types = \"apple_pay,google_pay,mobilepay,maestro,master,visa, shopify_pay\" | split: \",\" -%}\n\n<ul class=\"payment-icons\" role=\"img\" aria-label=\"Beschikbare betaalmethoden\">\n  {%- for type in payment_types -%}\n    <li class=\"payment-icon payment-icon--{{ type | strip }}\">\n      {{ type | strip | payment_type_svg_tag }}\n    </li>\n  {%- endfor -%}\n</ul>\n\n<style>\n  .payment-icons {\n    display: flex;\n    flex-wrap: wrap;\n    margin-top: .75rem;\n    padding: 0;\n    justify-content: center;\n  }\n\n  .payment-icon {\n    list-style: none;\n    line-height: 0;\n  }\n\n  .payment-icon svg {\n    height: 24px;\n    width: auto;\n    display: block;\n  }\n\n  /* Mobiel: iconen iets kleiner zodat ze op één regel passen */\n  @media (max-width: 480px) {\n    .payment-icons {\n      gap: 0.25rem;\n    }\n\n    .payment-icon svg {\n      height: 20px;\n    }\n  }\n</style>"
           }
         },
+        "custom_VizbP4": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n  .sale-update-wrap{\n    width:100%;\n    padding:18px 16px;\n  }\n\n  .sale-update__inner{\n    background:#f7eceb;\n    border-radius:10px;\n    border:1px solid rgba(166, 74, 74, .18);\n    padding:14px 16px;\n  }\n\n  .sale-update__text{\n    margin:0;\n    font-size:16px;\n    line-height:1.35;\n    color:#b05a5a;\n    font-weight:500;\n  }\n\n  .sale-update__label{\n    font-weight:800;\n    text-transform:uppercase;\n    letter-spacing:.02em;\n    color:#a64a4a;\n  }\n\n  @media (max-width: 480px){\n    .sale-update-wrap{ padding:14px 12px; }\n    .sale-update{ padding:10px; border-radius:12px; }\n    .sale-update__inner{ padding:12px 14px; }\n    .sale-update__text{ font-size:15px; }\n  }\n</style>\n\n<div class=\"sale-update-wrap\">\n  <div class=\"sale-update\" role=\"status\" aria-live=\"polite\">\n    <div class=\"sale-update__inner\">\n      <p class=\"sale-update__text\">\n        <span class=\"sale-update__label\">SALGSOPDATERING:</span>\n        På grund af stor efterspørgsel under vores jubilæumssalg er der kun et begrænset antal varer tilbage!\n      </p>\n    </div>\n  </div>\n</div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -115,6 +121,7 @@
         "custom_KPWGfx",
         "buy_buttons",
         "custom_ea83iC",
+        "custom_VizbP4",
         "description",
         "tab",
         "tab_b4qmqa",
