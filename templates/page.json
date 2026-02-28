@@ -93,6 +93,67 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "text_and_image_QLpCmT": {
+      "type": "text-and-image",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/lepeivisual-architecture-7781432_1280.jpg",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "Personlig opmærksomhed",
+        "text": "<p>Vi forbliver personligt engagerede i vores brand. Vi læser beskeder, følger feedback og udvælger hver kollektion med omhu.<br/><br/>For os er god service en selvfølge. Bag Løv & Lys står rigtige mennesker, der gerne vil hjælpe dig.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "text_and_image_7acdFj": {
+      "type": "text-and-image",
+      "name": "Image with text",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Med blikket rettet mod fremtiden",
+        "text": "<p>Vi er stolte af, hvad Løv & Lys er blevet til, og endnu mere stolte af vores kunders tillid.<br/><br/>Vores mål er enkelt: at forblive tro mod vores værdier og fortsætte med at designe med omhu, kvalitet og enkelhed.<br/><br/>Tak, fordi du er en del af vores historie.<br/><br/>Med venlig hilsen,<br/><br/>Mette & Lene<br/>Grundlæggere af Løv & Lys</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "rich_text_kTaAUF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wKCNPK": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_Qahf8H": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wKCNPK",
+        "text_Qahf8H"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -100,6 +161,9 @@
     "rich_text_mBEaiC",
     "text_and_image_iRna7F",
     "text_and_image_geehEj",
-    "text_and_image_kYtR7C"
+    "text_and_image_kYtR7C",
+    "text_and_image_QLpCmT",
+    "text_and_image_7acdFj",
+    "rich_text_kTaAUF"
   ]
 }
