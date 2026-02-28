@@ -77,7 +77,7 @@
       "name": "Featured collection",
       "settings": {
         "title": "BESTSELLERE",
-        "home_featured_products": "cardigans",
+        "home_featured_products": "blazere",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
