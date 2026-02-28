@@ -50,7 +50,7 @@
         "image_width": 400,
         "subtitle": "",
         "title": "Hvordan det hele begyndte",
-        "text": "<p>Løv & Lys er opstået ud af en fælles passion for mode og en enkel overbevisning: tøj skal give dig en god følelse, hver eneste dag.<br/><br/>Det, der begyndte som en lille idé mellem to grundlæggere, voksede til et brand med en klar vision. Vi ønskede at skabe et sted, hvor kvalitet er i højsædet, hvor stilen er tidløs, og hvor hver kunde behandles med oprigtig opmærksomhed.<br/><br/>Trin for trin udviklede Løv & Lys sig til det, det er i dag: et brand bygget på omhu, enkelhed og respekt for de mennesker, der stoler på os.</p>",
+        "text": "<p>Løv & Lys er opstået ud af en fælles passion for mode og en enkel overbevisning: <strong>tøj skal give dig en god følelse, hver eneste dag.</strong><br/><br/>Det, der begyndte som en lille idé mellem to grundlæggere, voksede til et brand med en klar vision. Vi ønskede at skabe et sted, hvor kvalitet er i højsædet, hvor stilen er tidløs, og hvor hver kunde behandles med oprigtig opmærksomhed.<br/><br/>Trin for trin udviklede Løv & Lys sig til det, det er i dag: et brand bygget på omhu, enkelhed og respekt for de mennesker, der stoler på os.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -107,7 +107,7 @@
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
-        "layout": "right",
+        "layout": "left",
         "divider": false
       }
     },
@@ -115,43 +115,16 @@
       "type": "text-and-image",
       "name": "Image with text",
       "settings": {
-        "image_width": 700,
+        "image": "shopify://shop_images/main-header_e96d4160-34e9-43ba-a420-a35a350278b2.png",
+        "image_width": 500,
         "subtitle": "",
         "title": "Med blikket rettet mod fremtiden",
-        "text": "<p>Vi er stolte af, hvad Løv & Lys er blevet til, og endnu mere stolte af vores kunders tillid.<br/><br/>Vores mål er enkelt: at forblive tro mod vores værdier og fortsætte med at designe med omhu, kvalitet og enkelhed.<br/><br/>Tak, fordi du er en del af vores historie.<br/><br/>Med venlig hilsen,<br/><br/>Mette & Lene<br/>Grundlæggere af Løv & Lys</p>",
+        "text": "<p>Vi er stolte af, hvad Løv & Lys er blevet til, og endnu mere stolte af vores kunders tillid.<br/><br/><strong>Vores mål er enkelt: at forblive tro mod vores værdier og fortsætte med at designe med omhu, kvalitet og enkelhed.</strong><br/><br/>Tak, fordi du er en del af vores historie.<br/><br/>Med venlig hilsen,<br/><br/><strong>Mette & Lene - Løv & Lys</strong></p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
-        "divider": false
-      }
-    },
-    "rich_text_kTaAUF": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wKCNPK": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text_Qahf8H": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wKCNPK",
-        "text_Qahf8H"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
         "divider": false
       }
     }
@@ -163,7 +136,6 @@
     "text_and_image_geehEj",
     "text_and_image_kYtR7C",
     "text_and_image_QLpCmT",
-    "text_and_image_7acdFj",
-    "rich_text_kTaAUF"
+    "text_and_image_7acdFj"
   ]
 }
