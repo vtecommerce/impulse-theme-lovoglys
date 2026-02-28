@@ -308,7 +308,7 @@
       "type": "text-and-image",
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/owners-lov-lys.png",
+        "image": "shopify://shop_images/owners-outside-lov-lys.png",
         "image_width": 500,
         "subtitle": "",
         "title": "LØV & LYS",
