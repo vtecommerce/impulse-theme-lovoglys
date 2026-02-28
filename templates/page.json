@@ -1,1 +1,104 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "rich_text_mBEaiC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PAGbRE": {
+          "type": "heading",
+          "settings": {
+            "title": "Mette & Lene — Løv & Lys"
+          }
+        },
+        "text_8zQUfa": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Mode designet med omhu — med sans for detaljer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PAGbRE",
+        "text_8zQUfa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_iRna7F": {
+      "type": "text-and-image",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/lovoglys-logo-parcelpanel.png",
+        "image_width": 400,
+        "subtitle": "",
+        "title": "Hvordan det hele begyndte",
+        "text": "<p>Løv & Lys er opstået ud af en fælles passion for mode og en enkel overbevisning: tøj skal give dig en god følelse, hver eneste dag.<br/><br/>Det, der begyndte som en lille idé mellem to grundlæggere, voksede til et brand med en klar vision. Vi ønskede at skabe et sted, hvor kvalitet er i højsædet, hvor stilen er tidløs, og hvor hver kunde behandles med oprigtig opmærksomhed.<br/><br/>Trin for trin udviklede Løv & Lys sig til det, det er i dag: et brand bygget på omhu, enkelhed og respekt for de mennesker, der stoler på os.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "text_and_image_geehEj": {
+      "type": "text-and-image",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/owners-lov-lys.png",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "Menneskerne bag mærket",
+        "text": "<p>Vi er ikke en stor virksomhed.<br/>Vi er to grundlæggere, der stadig er personligt involveret i alle detaljer.<br/><br/>Mette har et skarpt øje for kvalitet, materialer og finish. Hun fokuserer på at udvælge designs, der holder længe og er behagelige at have på.<br/><br/>Lene bidrager med kreativitet og sans for stil, med fokus på pasform, enkelhed og den måde, tøj får dig til at føle dig på.<br/><br/>Sammen udgør vi Løv & Lys med et klart fokus: at skabe tøj, der er naturligt, elegant og bærbart.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "text_and_image_kYtR7C": {
+      "type": "text-and-image",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/quality-store-clothing-piece.png",
+        "image2": "shopify://shop_images/quality-store-clothing-black-piece.png",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "Hvad der er vigtigt for os",
+        "text": "<p>Mode ændrer sig, men nogle værdier forbliver de samme.</p><p>For os betyder det:</p><ul><li>tøj, der føles behageligt og giver selvtillid</li><li>kvalitet, man kan se og mærke</li><li>en oplevelse, hvor kunderne føler sig hørt og værdsat</li></ul><p>Vi tror på tidløse designs frem for hurtige trends. Vores kollektioner er skabt til at holde længere, både i stil og kvalitet.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_mBEaiC",
+    "text_and_image_iRna7F",
+    "text_and_image_geehEj",
+    "text_and_image_kYtR7C"
+  ]
+}
