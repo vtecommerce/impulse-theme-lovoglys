@@ -77,7 +77,7 @@
       "name": "Featured collection",
       "settings": {
         "title": "BESTSELLERE",
-        "home_featured_products": "blazere",
+        "home_featured_products": "elegante-midikjoler",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -115,7 +115,7 @@
         "collection_cAEJLB": {
           "type": "collection",
           "settings": {
-            "collection": "sweatshirts",
+            "collection": "elegante-midikjoler",
             "title": "",
             "focal_point": "center center"
           }
