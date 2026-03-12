@@ -243,6 +243,88 @@
         "color_text": "#1c1d1d"
       }
     },
+    "ss_feature_1_j6eprX": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_N6BYKP": {
+          "type": "image",
+          "settings": {
+            "feature_title": "GRATIS FORSENDELSE",
+            "feature_text": "<p>Nyd altid gratis forsendelse på alle dine ordrer, uden minimumsbeløb. Din pakke pakkes omhyggeligt og sendes via <strong>PostNord</strong> med en <strong>Track & Trace-kode</strong>, så du ved præcis, hvornår din ordre ankommer. Vores premium-service sikrer pålidelig levering.</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_YtWb4D": {
+          "type": "image",
+          "settings": {
+            "feature_title": "30 DAGES RETURRET",
+            "feature_text": "<p>Ikke helt tilfreds? Intet problem. Hos os kan du nemt returnere varer inden for 30 dage efter modtagelsen. Vi sørger for en hurtig og gennemsigtig returproces, så du kan shoppe uden bekymringer. Din tilfredshed er vores højeste prioritet.</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_xwka7C": {
+          "type": "image",
+          "settings": {
+            "feature_title": "SIKKER BETALING",
+            "feature_text": "<p>Betal sikkert, hurtigt og trygt med den betalingsmetode, du foretrækker. Vi understøtter blandt andet <strong>KreditKort</strong>, <strong>MobilePay</strong>, <strong>Apple Pay, Google Pay og VISA</strong>. Alle vores betalinger foregår via sikre forbindelser, så dine oplysninger er fuldt beskyttet.</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_N6BYKP",
+        "image_YtWb4D",
+        "image_xwka7C"
+      ],
+      "name": "SS - Feature #1",
+      "settings": {
+        "feature_row": 3,
+        "feature_row_mobile": 1,
+        "feature_gap": 20,
+        "feature_gap_mobile": 20,
+        "feature_padding_horizontal": 0,
+        "feature_padding_vertical": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": false,
+        "feature_heading_font": "josefin_sans_n4",
+        "feature_heading_size": 20,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 130,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 20,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 42,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#ffffff",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#000000",
+        "feature_icon_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "recently-viewed": {
       "type": "recently-viewed",
       "settings": {
@@ -259,6 +341,7 @@
     "product-recommendations",
     "featured_collection_MtVYty",
     "sub",
+    "ss_feature_1_j6eprX",
     "testimonials",
     "recently-viewed",
     "collection-return"
