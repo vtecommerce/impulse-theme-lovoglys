@@ -1,0 +1,266 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_kEAg9D": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n  .sa-rating-badge {\n    display: inline-flex;\n    align-items: center;\n    gap: .6rem;\n    font-size: 15px;\n    line-height: 1;\n    color: #111;\n    font-weight: 500;\n  }\n  .sa-stars {\n    position: relative;\n    width: 140px;\n    height: 24px;\n    flex: 0 0 auto;\n  }\n  .sa-stars__row {\n    position: absolute;\n    inset: 0;\n    display: flex;\n    gap: 5px;\n    overflow: hidden;\n  }\n  .sa-stars__row svg {\n    width: 24px;\n    height: 24px;\n    display: block;\n  }\n  .sa-stars__row path {\n    fill: #00B77F;\n  }\n  .sa-sep {\n    opacity: .35;\n  }\n</style>\n\n{% assign rating = 4.7 %}\n{% assign count = 2600 %}\n{% assign pct = rating | times: 100 | divided_by: 5 %}\n\n<div class=\"sa-rating-badge\" aria-label=\"{{ rating }} van 5 op basis van {{ count }} klanten\">\n  <div class=\"sa-stars\" aria-hidden=\"true\">\n    <div class=\"sa-stars__row\" style=\"width: {{ pct }}%;\">\n      {% for i in (1..5) %}\n        <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      {% endfor %}\n    </div>\n  </div>\n  <span>{{ rating }} / 5</span>\n  <span class=\"sa-sep\">|</span>\n  <span>{{ count }}+ anmeldelser</span>\n</div>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "custom_6UBTQU": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n  @keyframes pulse {\n    0% { \n      transform: scale(0.95); \n      box-shadow: 0 0 0 0 rgba(255, 102, 0, 0.6); \n    }\n    70% { \n      transform: scale(1); \n      box-shadow: 0 0 0 8px rgba(255, 102, 0, 0); \n    }\n    100% { \n      transform: scale(0.95); \n      box-shadow: 0 0 0 0 rgba(255, 102, 0, 0); \n    }\n  }\n\n  .aus_p_container {\n    margin-top: 0 !important;\n    margin-bottom: 20px;\n  }\n\n  .c.promoCheckmarks ul {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .c.promoCheckmarks li {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n  }\n\n  .icon-and-text {\n    display: flex;\n    align-items: center;\n  }\n\n  /* 👇 Standaard icon styling */\n  .icon-and-text img {\n    width: 20px;\n    height: 20px;\n    margin-right: 8px;\n    margin-left: 2px; /* zorgt voor consistente uitlijning */\n  }\n\n  /* 👇 Pulse-dot afmetingen en correctie */\n  .icon-and-text .pulse-dot {\n    width: 12px;\n    height: 12px;\n    background-color: #bc0029;\n    border-radius: 50%;\n    box-shadow: 0 0 0 0 rgba(255, 102, 0, 0.6);\n    animation: pulse 2s infinite;\n    margin-right: 14px;\n    margin-left: 4px; /* zorgt dat dot op dezelfde lijn zit als icons */\n    flex-shrink: 0;\n  }\n\n  .sales-point span {\n    color: #000000;\n    font-size: 16px;\n  }\n\n  .limited-stock span {\n    color: #bc0029;\n    font-weight: 400;\n  }\n</style>\n\n<div class=\"aus_p_container\">\n  <div class=\"aus_bullets\">\n    <div class=\"c promoCheckmarks\">\n      <ul>\n        <!-- 👇 Pulse bullet (gecorrigeerde uitlijning) -->\n        <li class=\"sales-point limited-stock\">\n          <span class=\"icon-and-text\">\n            <span class=\"pulse-dot\"></span>\n            <span>Kun 4 stk. tilbage</span>\n          </span>\n        </li>\n\n        <li class=\"sales-point\">\n          <span class=\"icon-and-text\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0940/7594/5287/files/postnordnewicon.avif?v=1764876802\">\n            <span>Gratis forsendelse via PostNord</span>\n          </span>\n        </li>\n\n        <li class=\"sales-point\">\n          <span class=\"icon-and-text\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0917/6576/8578/files/money-refund-euro.svg?v=1761591666\" alt=\"Money back icon\">\n            <span>14 dages pengene-tilbage-garanti</span>\n          </span>\n        </li>\n\n        <li class=\"sales-point\">\n          <span class=\"icon-and-text\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0940/7594/5287/files/mobilepayiconnew.avif?v=1764876802\">\n            <span>Sikker betaling med MobilePay</span>\n          </span>\n        </li>\n      </ul>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": true
+          }
+        },
+        "kiwi_size_chart_recommender_kiwi_sizing_PMe3zY": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "fallbackToBlockPosition": true,
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
+        },
+        "custom_KPWGfx": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n  .shipping-banner-wrapper {\n    max-width: 700px;\n    margin: 10px auto;\n  }\n\n  .shipping-banner {\n    background-color: #f5f5f5;\n    padding: 6px 10px;\n    border-radius: 6px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 13px;\n    color: #111;\n    gap: 6px;\n    line-height: 1;\n    white-space: nowrap;\n    width: 100%;\n    box-sizing: border-box;\n  }\n\n  .shipping-banner .dot {\n    width: 8px;\n    height: 8px;\n    background-color: #34c759;\n    border-radius: 50%;\n    display: inline-block;\n    margin-right: 4px;\n    flex-shrink: 0;\n  }\n\n  /* flag stack */\n  .flag-stack {\n    position: relative;\n    width: 22px;\n    height: 16px;\n    flex-shrink: 0;\n  }\n\n  .flag-stack .flag {\n    position: absolute;\n    width: 16px;\n    height: 16px;\n    border-radius: 50%;\n    overflow: hidden;\n    border: 1px solid #fff;\n  }\n\n  .flag-stack .flag img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  .flag-stack .flag.dk {\n    left: 0;\n    z-index: 2;\n  }\n\n  .shipping-banner strong {\n    font-weight: 600;\n  }\n\n  @media (max-width: 480px) {\n    .shipping-banner {\n      font-size: 12px;\n      padding: 5px 8px;\n      gap: 4px;\n    }\n    .flag-stack {\n      width: 20px;\n      height: 14px;\n    }\n    .flag-stack .flag {\n      width: 14px;\n      height: 14px;\n    }\n    .shipping-banner .dot {\n      width: 7px;\n      height: 7px;\n    }\n  }\n</style>\n\n{% assign days = \"søn,man,tir,ons,tor,fre,lør\" | split: \",\" %}\n{% assign months = \"januar,februar,marts,april,maj,juni,juli,august,september,oktober,november,december\" | split: \",\" %}\n\n{% assign ship_date = 'now' | date: \"%s\" | plus: 86400 | date: \"%w,%e,%m\" | split: \",\" %}\n{% assign day_index = ship_date[0] | plus: 0 %}\n{% assign day_name = days[day_index] %}\n{% assign day_number = ship_date[1] | strip %}\n{% assign month_index = ship_date[2] | minus: 1 %}\n{% assign month_name = months[month_index] %}\n\n<div class=\"shipping-banner-wrapper\">\n  <div class=\"shipping-banner\">\n    <span class=\"dot\"></span>\n    <span>Forsendelse <strong>for {{ day_name }} {{ day_number }} {{ month_name }}</strong></span>\n    <span class=\"flag-stack\">\n      <span class=\"flag dk\">\n        <img src=\"https://flagcdn.com/w40/dk.png\" alt=\"Dansk flag\">\n      </span>\n    </span>\n    <span><strong>Gratis forsendelse</strong></span>\n  </div>\n</div>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "custom_ea83iC": {
+          "type": "custom",
+          "settings": {
+            "code": "{%- assign payment_types = \"apple_pay,google_pay,mobilepay,maestro,master,visa, shopify_pay\" | split: \",\" -%}\n\n<ul class=\"payment-icons\" role=\"img\" aria-label=\"Beschikbare betaalmethoden\">\n  {%- for type in payment_types -%}\n    <li class=\"payment-icon payment-icon--{{ type | strip }}\">\n      {{ type | strip | payment_type_svg_tag }}\n    </li>\n  {%- endfor -%}\n</ul>\n\n<style>\n  .payment-icons {\n    display: flex;\n    flex-wrap: wrap;\n    margin-top: .75rem;\n    padding: 0;\n    justify-content: center;\n  }\n\n  .payment-icon {\n    list-style: none;\n    line-height: 0;\n  }\n\n  .payment-icon svg {\n    height: 24px;\n    width: auto;\n    display: block;\n  }\n\n  /* Mobiel: iconen iets kleiner zodat ze op één regel passen */\n  @media (max-width: 480px) {\n    .payment-icons {\n      gap: 0.25rem;\n    }\n\n    .payment-icon svg {\n      height: 20px;\n    }\n  }\n</style>"
+          }
+        },
+        "custom_VizbP4": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n  .sale-update-wrap{\n    width:100%;\n    padding:18px 16px;\n  }\n\n  .sale-update__inner{\n    background:#f7eceb;\n    border-radius:10px;\n    border:1px solid rgba(166, 74, 74, .18);\n    padding:14px 16px;\n  }\n\n  .sale-update__text{\n    margin:0;\n    font-size:16px;\n    line-height:1.35;\n    color:#b05a5a;\n    font-weight:500;\n  }\n\n  .sale-update__label{\n    font-weight:800;\n    text-transform:uppercase;\n    letter-spacing:.02em;\n    color:#a64a4a;\n  }\n\n  @media (max-width: 480px){\n    .sale-update-wrap{ padding:14px 12px; }\n    .sale-update{ padding:10px; border-radius:12px; }\n    .sale-update__inner{ padding:12px 14px; }\n    .sale-update__text{ font-size:15px; }\n  }\n</style>\n\n<div class=\"sale-update-wrap\">\n  <div class=\"sale-update\" role=\"status\" aria-live=\"polite\">\n    <div class=\"sale-update__inner\">\n      <p class=\"sale-update__text\">\n        <span class=\"sale-update__label\">SALGSOPDATERING:</span>\n        På grund af stor efterspørgsel under vores jubilæumssalg er der kun et begrænset antal varer tilbage!\n      </p>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Gratis forsendelse",
+            "content": "<p>Vi tilbyder <strong>gratis forsendelse</strong> inden for Danmark via <strong>PostNord</strong> på alle ordrer.</p><p>Vi sender vores pakker med en <strong>Track & Trace-kode</strong>, så du altid kan følge din ordre.</p><p>Du modtager Track & Trace-koden via e-mail inden for 1-24 timer efter, at du har afgivet din ordre.</p>",
+            "page": ""
+          }
+        },
+        "tab_b4qmqa": {
+          "type": "tab",
+          "settings": {
+            "title": "2600+ tilfredse kunder",
+            "content": "<p>Løv & Lys har over <strong>23.000 tilfredse kunder</strong>, og vores kunder giver os en vurdering på <strong>4,7 ud af 5</strong>.</p>",
+            "page": ""
+          }
+        },
+        "custom_8kxB8e": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n  .sa-love-badge {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 15px;\n    color: #111;\n    font-weight: 400;\n  }\n  .sa-love-badge img {\n    width: 36px;\n    height: 36px;\n    border-radius: 50%;\n    object-fit: cover;\n  }\n  .sa-love-badge .name {\n    font-weight: 600;\n    display: inline-flex;\n    align-items: center;\n    gap: 4px;\n  }\n  .sa-love-badge strong {\n    font-weight: 600;\n  }\n  .sa-love-badge svg {\n    vertical-align: middle;\n  }\n</style>\n\n<div class=\"sa-love-badge\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0917/6576/8578/files/lois-image.avif?v=1761593335\" alt=\"Klantfoto\">\n  <div>\n    <span class=\"name\">\n      Astrid D.\n      <svg height=\"15\" width=\"15\" viewBox=\"0 0 22 22\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z\" fill=\"#1d9bf0\"></path>\n      </svg>\n    </span>\n    <span>og 2,6k+ andre kunder elsker</span>\n    <strong> Løv & Lys</strong>\n  </div>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "custom_kEAg9D",
+        "price",
+        "custom_6UBTQU",
+        "separator",
+        "variant_picker",
+        "kiwi_size_chart_recommender_kiwi_sizing_PMe3zY",
+        "custom_KPWGfx",
+        "buy_buttons",
+        "custom_ea83iC",
+        "custom_VizbP4",
+        "description",
+        "tab",
+        "tab_b4qmqa",
+        "custom_8kxB8e"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Du kan også lide",
+        "related_count": 5
+      }
+    },
+    "featured_collection_MtVYty": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "KOMBINÉR OG FÅ 10 % EKSTRA RABAT",
+        "home_featured_products": "blazere",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Fantastisk shoppingoplevelse. Meget venlig hjælp og virkelig glad for mit køb.</p>",
+            "author": "Freja M.",
+            "author_info": ""
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Meget smuk og blød trøje. Sidder perfekt og føles virkelig komfortabel.</p>",
+            "author": "Astrid K.",
+            "author_info": ""
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4-stars",
+            "testimonial": "<p>Meget glad for mit køb. Smukke farver og sidder utrolig behageligt.</p>",
+            "author": "Alma S.",
+            "author_info": ""
+          }
+        },
+        "testimonial_63Y4F4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Man kan mærke at der er lagt vægt på detaljer. Meget glad for mit køb.</p>",
+            "author": "Mathilde R.",
+            "author_info": ""
+          }
+        },
+        "testimonial_KipmjF": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4-stars",
+            "testimonial": "<p>En rigtig god shoppingoplevelse. Jeg gik derfra med et stort smil og en smuk taske.</p>",
+            "author": "Signe L.",
+            "author_info": ""
+          }
+        },
+        "testimonial_6CGYKD": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Virkelig glad for denne trøje, flotte detaljer.</p>",
+            "author": "Ida V.",
+            "author_info": ""
+          }
+        },
+        "testimonial_TzCqbU": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Perfekt pasform og meget behagelig. Super tilfreds.</p>",
+            "author": "Clara P.",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2",
+        "testimonial_63Y4F4",
+        "testimonial_KipmjF",
+        "testimonial_6CGYKD",
+        "testimonial_TzCqbU"
+      ],
+      "settings": {
+        "title": "Hvad kunderne siger",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "featured_collection_MtVYty",
+    "sub",
+    "testimonials",
+    "recently-viewed",
+    "collection-return"
+  ]
+}
