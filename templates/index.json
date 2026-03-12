@@ -26,6 +26,7 @@
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/main-header.png",
+            "image_mobile": "shopify://shop_images/owners-lov-lys_1d69b47a-f3be-4515-8372-de5e58a0c4ad.png",
             "overlay_opacity": 50,
             "focal_point": "center center"
           }
@@ -36,7 +37,7 @@
       ],
       "settings": {
         "section_height": "550px",
-        "mobile_height": "auto",
+        "mobile_height": "300px",
         "parallax": false,
         "style": "bars",
         "autoplay": true,
