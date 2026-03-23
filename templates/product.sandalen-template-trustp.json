@@ -191,18 +191,6 @@
             "author": "Astrid K. | Århus"
           }
         },
-        "slide_kCgzbJ": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/review2.png",
-            "video_url": "",
-            "text": "<p>Meget behagelige sandaler med en flot pasform. Farven er præcis som på billederne, og kvaliteten føles rigtig god.</p>",
-            "stars_count": 5,
-            "badge": "verificeret",
-            "author": "Line M. | Odense"
-          }
-        },
         "slide_YNmDMj": {
           "type": "slide",
           "settings": {
@@ -227,17 +215,16 @@
             "author": "Mathilde R. | København"
           }
         },
-        "slide_m7Ccyx": {
+        "slide_kCgzbJ": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/review-3.png",
+            "image": "shopify://shop_images/review2.png",
             "video_url": "",
-            "text": "<p>Virkelig flot trøje og overraskende god kvalitet. Den er blød, varm og meget behagelig at have på. Jeg har allerede brugt den flere gange og får ofte komplimenter.</p>",
+            "text": "<p>Meget behagelige sandaler med en flot pasform. Farven er præcis som på billederne, og kvaliteten føles rigtig god.</p>",
             "stars_count": 5,
             "badge": "verificeret",
-            "author": "Ida V. | Kolding"
+            "author": "Line M. | Odense"
           }
         },
         "slide_QwPWRe": {
@@ -322,10 +309,9 @@
         "review_VcqH9m",
         "heading_tFmDYf",
         "slide_mxLCrr",
-        "slide_kCgzbJ",
         "slide_YNmDMj",
         "slide_wH6nLy",
-        "slide_m7Ccyx",
+        "slide_kCgzbJ",
         "slide_QwPWRe",
         "slide_7jyEjm",
         "button_dhQkqy",
