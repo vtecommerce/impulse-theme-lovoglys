@@ -294,6 +294,23 @@
         "title": "Ofte stillede spørgsmål"
       }
     },
+    "text_and_image_CFaHhe": {
+      "type": "text-and-image",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/owners-lov-lys.png",
+        "image_width": 380,
+        "subtitle": "",
+        "title": "Menneskerne bag mærket",
+        "text": "<p>Vi er ikke en stor virksomhed.<br/>Vi er to grundlæggere, der stadig er personligt involveret i alle detaljer.<br/><br/>Mette har et skarpt øje for kvalitet, materialer og finish. Hun fokuserer på at udvælge designs, der holder længe og er behagelige at have på.<br/><br/>Lene bidrager med kreativitet og sans for stil, med fokus på pasform, enkelhed og den måde, tøj får dig til at føle dig på.<br/><br/>Sammen udgør vi Løv & Lys med et klart fokus: at skabe tøj, der er naturligt, elegant og bærbart.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "ss_feature_1_j6eprX": {
       "type": "ss-feature-1",
       "blocks": {
@@ -396,6 +413,7 @@
     "sub",
     "testimonials",
     "faq_MQbt3t",
+    "text_and_image_CFaHhe",
     "ss_feature_1_j6eprX",
     "recently-viewed",
     "collection-return"
